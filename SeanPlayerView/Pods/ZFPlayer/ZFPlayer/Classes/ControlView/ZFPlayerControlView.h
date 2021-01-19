@@ -142,4 +142,9 @@
  */
 - (void)resetControlView;
 
+
+/// 取消延时隐藏controlView的方法
+- (void)cancelAutoFadeOutControlView;
+
+- (void)autoFadeOutControlView;
 @end

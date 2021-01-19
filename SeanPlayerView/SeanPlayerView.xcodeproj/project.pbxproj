@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C1D87662466AE6F005BEE7B /* SpeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C1D87652466AE6F005BEE7B /* SpeedViewController.m */; };
+		2C1D87692466AF7E005BEE7B /* SeanSpeedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C1D87682466AF7E005BEE7B /* SeanSpeedControl.m */; };
 		2C3239A8236AE6BA0072D051 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C3239A7236AE6BA0072D051 /* AppDelegate.m */; };
 		2C3239AB236AE6BA0072D051 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C3239AA236AE6BA0072D051 /* ViewController.m */; };
 		2C3239AE236AE6BA0072D051 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C3239AC236AE6BA0072D051 /* Main.storyboard */; };
@@ -15,6 +17,10 @@
 		2C3239B6236AE6BC0072D051 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C3239B5236AE6BC0072D051 /* main.m */; };
 		2C3239C0236AE6BC0072D051 /* SeanPlayerViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C3239BF236AE6BC0072D051 /* SeanPlayerViewTests.m */; };
 		2C3239CB236AE6BC0072D051 /* SeanPlayerViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C3239CA236AE6BC0072D051 /* SeanPlayerViewUITests.m */; };
+		2C3239DB236AE7540072D051 /* SeanPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C3239D9236AE7540072D051 /* SeanPlayerView.m */; };
+		2C3239DE236AE8E20072D051 /* SeanPlayerControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C3239DD236AE8E20072D051 /* SeanPlayerControlView.m */; };
+		2C3239E1236C0BB30072D051 /* SeanSpeedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C3239E0236C0BB30072D051 /* SeanSpeedView.m */; };
+		2C39A5D12468F50A00DEDE79 /* SeanLandScapeControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C39A5D02468F50A00DEDE79 /* SeanLandScapeControl.m */; };
 		B93D2402E37002FEEB1D8453 /* Pods_SeanPlayerView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDBD10C0A6580C9A1B925925 /* Pods_SeanPlayerView.framework */; };
 /* End PBXBuildFile section */
 
@@ -36,6 +42,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2C1D87642466AE6F005BEE7B /* SpeedViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpeedViewController.h; sourceTree = "<group>"; };
+		2C1D87652466AE6F005BEE7B /* SpeedViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpeedViewController.m; sourceTree = "<group>"; };
+		2C1D87672466AF7E005BEE7B /* SeanSpeedControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SeanSpeedControl.h; sourceTree = "<group>"; };
+		2C1D87682466AF7E005BEE7B /* SeanSpeedControl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SeanSpeedControl.m; sourceTree = "<group>"; };
 		2C3239A3236AE6BA0072D051 /* SeanPlayerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeanPlayerView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C3239A6236AE6BA0072D051 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2C3239A7236AE6BA0072D051 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -52,6 +62,14 @@
 		2C3239C6236AE6BC0072D051 /* SeanPlayerViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeanPlayerViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C3239CA236AE6BC0072D051 /* SeanPlayerViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SeanPlayerViewUITests.m; sourceTree = "<group>"; };
 		2C3239CC236AE6BC0072D051 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C3239D9236AE7540072D051 /* SeanPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SeanPlayerView.m; sourceTree = "<group>"; };
+		2C3239DA236AE7540072D051 /* SeanPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SeanPlayerView.h; sourceTree = "<group>"; };
+		2C3239DC236AE8E20072D051 /* SeanPlayerControlView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SeanPlayerControlView.h; sourceTree = "<group>"; };
+		2C3239DD236AE8E20072D051 /* SeanPlayerControlView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SeanPlayerControlView.m; sourceTree = "<group>"; };
+		2C3239DF236C0BB30072D051 /* SeanSpeedView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SeanSpeedView.h; sourceTree = "<group>"; };
+		2C3239E0236C0BB30072D051 /* SeanSpeedView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SeanSpeedView.m; sourceTree = "<group>"; };
+		2C39A5CF2468F50A00DEDE79 /* SeanLandScapeControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SeanLandScapeControl.h; sourceTree = "<group>"; };
+		2C39A5D02468F50A00DEDE79 /* SeanLandScapeControl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SeanLandScapeControl.m; sourceTree = "<group>"; };
 		629129E2FF2D4AB01B828790 /* Pods-SeanPlayerView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeanPlayerView.release.xcconfig"; path = "Target Support Files/Pods-SeanPlayerView/Pods-SeanPlayerView.release.xcconfig"; sourceTree = "<group>"; };
 		BC32990C0B03DEA4326E7CF8 /* Pods-SeanPlayerView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeanPlayerView.debug.xcconfig"; path = "Target Support Files/Pods-SeanPlayerView/Pods-SeanPlayerView.debug.xcconfig"; sourceTree = "<group>"; };
 		DDBD10C0A6580C9A1B925925 /* Pods_SeanPlayerView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SeanPlayerView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -116,10 +134,13 @@
 		2C3239A5236AE6BA0072D051 /* SeanPlayerView */ = {
 			isa = PBXGroup;
 			children = (
+				2C3239D8236AE7540072D051 /* SeanPlayerView */,
 				2C3239A6236AE6BA0072D051 /* AppDelegate.h */,
 				2C3239A7236AE6BA0072D051 /* AppDelegate.m */,
 				2C3239A9236AE6BA0072D051 /* ViewController.h */,
 				2C3239AA236AE6BA0072D051 /* ViewController.m */,
+				2C1D87642466AE6F005BEE7B /* SpeedViewController.h */,
+				2C1D87652466AE6F005BEE7B /* SpeedViewController.m */,
 				2C3239AC236AE6BA0072D051 /* Main.storyboard */,
 				2C3239AF236AE6BC0072D051 /* Assets.xcassets */,
 				2C3239B1236AE6BC0072D051 /* LaunchScreen.storyboard */,
@@ -147,13 +168,29 @@
 			path = SeanPlayerViewUITests;
 			sourceTree = "<group>";
 		};
+		2C3239D8236AE7540072D051 /* SeanPlayerView */ = {
+			isa = PBXGroup;
+			children = (
+				2C3239DA236AE7540072D051 /* SeanPlayerView.h */,
+				2C3239D9236AE7540072D051 /* SeanPlayerView.m */,
+				2C3239DC236AE8E20072D051 /* SeanPlayerControlView.h */,
+				2C3239DD236AE8E20072D051 /* SeanPlayerControlView.m */,
+				2C3239DF236C0BB30072D051 /* SeanSpeedView.h */,
+				2C3239E0236C0BB30072D051 /* SeanSpeedView.m */,
+				2C1D87672466AF7E005BEE7B /* SeanSpeedControl.h */,
+				2C1D87682466AF7E005BEE7B /* SeanSpeedControl.m */,
+				2C39A5CF2468F50A00DEDE79 /* SeanLandScapeControl.h */,
+				2C39A5D02468F50A00DEDE79 /* SeanLandScapeControl.m */,
+			);
+			path = SeanPlayerView;
+			sourceTree = "<group>";
+		};
 		BA9EC1A9AFD67C3D6648E32F /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				BC32990C0B03DEA4326E7CF8 /* Pods-SeanPlayerView.debug.xcconfig */,
 				629129E2FF2D4AB01B828790 /* Pods-SeanPlayerView.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -331,8 +368,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C3239DE236AE8E20072D051 /* SeanPlayerControlView.m in Sources */,
+				2C3239E1236C0BB30072D051 /* SeanSpeedView.m in Sources */,
 				2C3239AB236AE6BA0072D051 /* ViewController.m in Sources */,
 				2C3239B6236AE6BC0072D051 /* main.m in Sources */,
+				2C1D87662466AE6F005BEE7B /* SpeedViewController.m in Sources */,
+				2C39A5D12468F50A00DEDE79 /* SeanLandScapeControl.m in Sources */,
+				2C3239DB236AE7540072D051 /* SeanPlayerView.m in Sources */,
+				2C1D87692466AF7E005BEE7B /* SeanSpeedControl.m in Sources */,
 				2C3239A8236AE6BA0072D051 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -508,6 +551,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 725J4L92JQ;
 				INFOPLIST_FILE = SeanPlayerView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -526,6 +570,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 725J4L92JQ;
 				INFOPLIST_FILE = SeanPlayerView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
